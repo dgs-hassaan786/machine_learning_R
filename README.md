@@ -1,4 +1,4 @@
-# machine_learning_R
+# Machine Learning with R
 This is a series of courses which leads towards the step by step progress in the machine learning. 
 
 The very first step in machine learning is data. 
@@ -7,7 +7,7 @@ I am working on the dataset, for that I'm using the following link:
 
 https://www.superdatascience.com/machine-learning/
 
-#Progress 1: Data Preprocessing
+# Progress 1: Data Preprocessing
 It includes:
 1. Importing the Dataset
 2. Missing Data fixation
@@ -23,3 +23,8 @@ Removing the whole row could be dangerous as it may contains the important infor
 To fix this problem, there are tricks which we apply:
 
 Solution 1: Taking the mean of the whole column
+
+# Categorical Data
+
+In machine learning, we have equations which required values. Keeping the english alphabates it is very difficult. 
+So we substitute the values.
