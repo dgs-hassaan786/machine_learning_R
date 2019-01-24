@@ -27,4 +27,20 @@ dataset$Purchased = factor(dataset$Purchased,
                          labels = c(0,1)
                          )
 
+#Splitting the dataset into the Training set and Test set
+
+#importing the caTools
+#install.packages('caTools')
+
+library(caTools)
+
+#seeding the random number
+set.seed(123)
+
+#in R we use split ratio for the training model
+#in python we have used it for the test model
+split = sample.split(dataset$Purchased,SplitRatio = 0.8)
+
+training_set = subset(dataset, split == TRUE)
+test_set = subset(dataset, split == FALSE)
 
